@@ -67,6 +67,7 @@ main {
 }
 .thong-tin {
   padding: 20px;
+  flex-wrap: wrap;
 }
 .thong-tin h3 {
   font-size: 30px;
