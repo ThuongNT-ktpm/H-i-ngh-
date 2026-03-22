@@ -243,7 +243,7 @@
       }
 
       const text = `🚨 CÓ NGƯỜI VỪA GỬI TÂM THƯ TỪ WEB TROLL!\n\n👤 Tên: ${name}\n📧 Email: ${email}\n📱 SĐT: ${phone}\n💬 Lời nhắn: ${message}`;
-      const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`;
+      const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage?chat_id=${TELEGRAM_CHAT_ID}&text=${encodeURIComponent(text)}`;
 
       fetch(url)
         .then(response => response.json())
